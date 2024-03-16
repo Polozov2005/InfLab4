@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 259.97 5701">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        letter-spacing: -.14em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-5 {
+        font-size: 12px;
+      }
+
+      .cls-5, .cls-6, .cls-7 {
+        fill: #fff;
+        font-family: TimesNewRomanPSMT, 'Times New Roman';
+      }
+
+      .cls-6 {
+        font-size: 36px;
+      }
+
+      .cls-8 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-9 {
+        letter-spacing: .02em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-7 {
+        font-size: 24px;
+      }
+
+      .cls-11 {
+        letter-spacing: -.02em;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-2" x="58.85" y=".5" width="200" height="100" rx="46.91" ry="46.91"/>
+    <text class="cls-6" transform="translate(103.4 63.01)"><tspan x="0" y="0">Н</tspan><tspan class="cls-8" x="26" y="0">а</tspan><tspan x="40.54" y="0">ч</tspan><tspan class="cls-1" x="58.64" y="0">а</tspan><tspan x="74.94" y="0">ло</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-2" x="58.85" y="200.5" width="200" height="100"/>
+    <text class="cls-6" transform="translate(93.73 263.01)"><tspan x="0" y="0">K = [[0]]</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-2" x="58.85" y="400.5" width="200" height="100"/>
+    <text class="cls-6" transform="translate(121.7 463.01)"><tspan x="0" y="0">k = 0</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-2" x="58.85" y="600.5" width="200" height="100"/>
+    <text class="cls-7" transform="translate(66.1 658.84)"><tspan x="0" y="0">visited_nodes = [0]</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-2" x="58.85" y="800.5" width="200" height="100"/>
+    <text class="cls-6" transform="translate(121.7 863.01)"><tspan x="0" y="0">n = 0</tspan></text>
+  </g>
+  <g>
+    <polygon class="cls-2" points="258.85 1030.5 258.85 1100.5 58.85 1100.5 58.85 1030.5 88.85 1000.5 228.85 1000.5 258.85 1030.5"/>
+    <text class="cls-7" transform="translate(125.19 1044.44)"><tspan x="0" y="0">цикл 1</tspan><tspan x="4.9" y="28.8">n != v</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-2" x="58.85" y="1200.5" width="200" height="100"/>
+    <text class="cls-6" transform="translate(122.71 1263.01)"><tspan x="0" y="0">a = 0</tspan></text>
+  </g>
+  <g>
+    <polygon class="cls-2" points="258.85 1430.5 258.85 1500.5 58.85 1500.5 58.85 1430.5 88.85 1400.5 228.85 1400.5 258.85 1430.5"/>
+    <text class="cls-7" transform="translate(125.19 1444.44)"><tspan x="0" y="0">цикл 2</tspan><tspan x="-49.34" y="28.8">a != длина(K[k])</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-2" x="58.85" y="1600.5" width="200" height="100"/>
+    <text class="cls-6" transform="translate(80.74 1663.01)"><tspan x="0" y="0">i = K[k][a]</tspan></text>
+  </g>
+  <g>
+    <polygon class="cls-2" points="258.85 1830.5 258.85 1900.5 58.85 1900.5 58.85 1830.5 88.85 1800.5 228.85 1800.5 258.85 1830.5"/>
+    <text class="cls-7" transform="translate(125.19 1844.44)"><tspan x="0" y="0">цикл 3</tspan><tspan x="-25.44" y="28.8">j = 0, ..., v-1</tspan></text>
+  </g>
+  <g>
+    <polygon class="cls-2" points="158.85 2100.5 58.85 2050.5 158.85 2000.5 258.85 2050.5 158.85 2100.5"/>
+    <text class="cls-5" transform="translate(104.53 2040.27)"><tspan x="0" y="0">НЕ(j in visited_nodes)</tspan><tspan x="49.99" y="14.4">И</tspan><tspan x="30.28" y="28.8">A[i, j] = 1</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-2" x="58.85" y="2200.5" width="200" height="100"/>
+    <text class="cls-6" transform="translate(78.58 2263.01)"><tspan x="0" y="0">K[k] += [j]</tspan></text>
+  </g>
+  <text class="cls-6" transform="translate(178.59 2130.5)"><tspan x="0" y="0">Да</tspan></text>
+  <text class="cls-6" transform="translate(0 2030.5)"><tspan x="0" y="0">Нет</tspan></text>
+  <g>
+    <rect class="cls-2" x="58.85" y="2400.5" width="200" height="100"/>
+    <text class="cls-7" transform="translate(62 2458.84)"><tspan x="0" y="0">visited_nodes += [j]</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-2" x="58.85" y="2600.5" width="200" height="100"/>
+    <text class="cls-6" transform="translate(111.55 2663.01)"><tspan x="0" y="0">n += 1</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-2" x="58.85" y="2800.5" width="200" height="100"/>
+    <text class="cls-6" transform="translate(112.56 2863.01)"><tspan x="0" y="0">a += 1</tspan></text>
+  </g>
+  <g>
+    <polygon class="cls-2" points="58.85 3070.5 58.85 3000.5 258.85 3000.5 258.85 3070.5 228.85 3100.5 88.85 3100.5 58.85 3070.5"/>
+    <text class="cls-7" transform="translate(125.19 3058.84)"><tspan x="0" y="0">цикл 3</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-2" x="58.85" y="3200.5" width="200" height="100"/>
+    <text class="cls-6" transform="translate(125.7 3263.01)"><tspan x="0" y="0">i = 0</tspan></text>
+  </g>
+  <g>
+    <polygon class="cls-2" points="258.85 3430.5 258.85 3500.5 58.85 3500.5 58.85 3430.5 88.85 3400.5 228.85 3400.5 258.85 3430.5"/>
+    <text class="cls-7" transform="translate(125.19 3444.44)"><tspan x="0" y="0">цикл 4</tspan><tspan x="-51" y="28.8">i in visited_nodes</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-2" x="58.85" y="3600.5" width="200" height="100"/>
+    <text class="cls-6" transform="translate(115.55 3663.01)"><tspan x="0" y="0">i += 1</tspan></text>
+  </g>
+  <g>
+    <polygon class="cls-2" points="58.85 3870.5 58.85 3800.5 258.85 3800.5 258.85 3870.5 228.85 3900.5 88.85 3900.5 58.85 3870.5"/>
+    <text class="cls-7" transform="translate(125.19 3858.84)"><tspan x="0" y="0">цикл 4</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-2" x="58.85" y="4000.5" width="200" height="100"/>
+    <text class="cls-7" transform="translate(62 4058.84)"><tspan x="0" y="0">visited_nodes += [i]</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-2" x="58.85" y="4200.5" width="200" height="100"/>
+    <text class="cls-6" transform="translate(111.55 4263.01)"><tspan x="0" y="0">n += 1</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-2" x="58.85" y="4400.5" width="200" height="100"/>
+    <text class="cls-6" transform="translate(87.58 4463.01)"><tspan x="0" y="0">K += [[i]]</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-2" x="58.85" y="4600.5" width="200" height="100"/>
+    <text class="cls-6" transform="translate(111.55 4663.01)"><tspan x="0" y="0">k += 1</tspan></text>
+  </g>
+  <g>
+    <polygon class="cls-2" points="58.85 4870.5 58.85 4800.5 258.85 4800.5 258.85 4870.5 228.85 4900.5 88.85 4900.5 58.85 4870.5"/>
+    <text class="cls-7" transform="translate(125.19 4858.84)"><tspan x="0" y="0">цикл 2</tspan></text>
+  </g>
+  <g>
+    <polygon class="cls-2" points="58.85 5070.5 58.85 5000.5 258.85 5000.5 258.85 5070.5 228.85 5100.5 88.85 5100.5 58.85 5070.5"/>
+    <text class="cls-7" transform="translate(125.19 5058.84)"><tspan x="0" y="0">цикл 1</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-2" x="58.85" y="5200.5" width="200" height="100"/>
+    <text class="cls-7" transform="translate(96.71 5244.44)"><tspan class="cls-3" x="0" y="0">У</tspan><tspan x="13.63" y="0">д</tspan><tspan class="cls-1" x="25.84" y="0">а</tspan><tspan x="36.7" y="0">лить у K </tspan><tspan x="-36.26" y="28.8">п</tspan><tspan class="cls-9" x="-23.42" y="28.8">о</tspan><tspan x="-10.82" y="28.8">сл</tspan><tspan class="cls-4" x="11.81" y="28.8">е</tspan><tspan x="22.14" y="28.8">дний </tspan><tspan class="cls-11" x="78.88" y="28.8">э</tspan><tspan x="88.75" y="28.8">лемент</tspan></text>
+  </g>
+  <g>
+    <path class="cls-2" d="m128.85,5500.5h110c19.46-20.43,20-44.88,20-50,0-28.21-16.47-46.29-20-50h-110c-13.96,5.55-32.03,14.7-50,30-7.94,6.76-14.55,13.6-20,20,5.45,6.4,12.06,13.24,20,20,17.97,15.3,36.04,24.45,50,30Z"/>
+    <text class="cls-6" transform="translate(93.76 5463.01)"><tspan x="0" y="0">длина(K)</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-2" x="58.85" y="5600.5" width="200" height="100" rx="46.91" ry="46.91"/>
+    <text class="cls-6" transform="translate(111.49 5663.01)"><tspan class="cls-10" x="0" y="0">К</tspan><tspan x="22.22" y="0">онец</tspan></text>
+  </g>
+  <line class="cls-2" x1="158.85" y1="100.5" x2="158.85" y2="200.5"/>
+  <line class="cls-2" x1="158.85" y1="300.5" x2="158.85" y2="400.5"/>
+  <line class="cls-2" x1="158.85" y1="500.5" x2="158.85" y2="600.5"/>
+  <line class="cls-2" x1="158.85" y1="700.5" x2="158.85" y2="800.5"/>
+  <line class="cls-2" x1="158.85" y1="900.5" x2="158.85" y2="1000.5"/>
+  <line class="cls-2" x1="158.85" y1="1100.5" x2="158.85" y2="1200.5"/>
+  <line class="cls-2" x1="158.85" y1="1300.5" x2="158.85" y2="1400.5"/>
+  <line class="cls-2" x1="158.85" y1="1500.5" x2="158.85" y2="1600.5"/>
+  <line class="cls-2" x1="158.85" y1="1700.5" x2="158.85" y2="1800.5"/>
+  <line class="cls-2" x1="158.85" y1="1900.5" x2="158.85" y2="2000.5"/>
+  <line class="cls-2" x1="158.85" y1="2100.5" x2="158.85" y2="2200.5"/>
+  <line class="cls-2" x1="158.85" y1="2300.5" x2="158.85" y2="2400.5"/>
+  <line class="cls-2" x1="158.85" y1="2500.5" x2="158.85" y2="2600.5"/>
+  <line class="cls-2" x1="158.85" y1="2700.5" x2="158.85" y2="2800.5"/>
+  <line class="cls-2" x1="158.85" y1="2900.5" x2="158.85" y2="3000.5"/>
+  <line class="cls-2" x1="158.85" y1="3100.5" x2="158.85" y2="3200.5"/>
+  <line class="cls-2" x1="158.85" y1="3300.5" x2="158.85" y2="3400.5"/>
+  <line class="cls-2" x1="158.85" y1="3500.5" x2="158.85" y2="3600.5"/>
+  <line class="cls-2" x1="158.85" y1="3700.5" x2="158.85" y2="3800.5"/>
+  <line class="cls-2" x1="158.85" y1="3900.5" x2="158.85" y2="4000.5"/>
+  <line class="cls-2" x1="158.85" y1="4100.5" x2="158.85" y2="4200.5"/>
+  <line class="cls-2" x1="158.85" y1="4300.5" x2="158.85" y2="4400.5"/>
+  <line class="cls-2" x1="158.85" y1="4500.5" x2="158.85" y2="4600.5"/>
+  <line class="cls-2" x1="158.85" y1="4700.5" x2="158.85" y2="4800.5"/>
+  <line class="cls-2" x1="158.85" y1="4900.5" x2="158.85" y2="5000.5"/>
+  <line class="cls-2" x1="158.85" y1="5100.5" x2="158.85" y2="5200.5"/>
+  <line class="cls-2" x1="158.85" y1="5300.5" x2="158.85" y2="5400.5"/>
+  <line class="cls-2" x1="158.85" y1="5500.5" x2="158.85" y2="5600.5"/>
+  <polyline class="cls-2" points="158.85 2750.5 8.85 2750.5 8.85 2050.5 58.85 2050.5"/>
+</svg>
